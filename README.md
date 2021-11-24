@@ -102,6 +102,8 @@ Observations:
 | Manslaugther	| 0.75	| 2.0	| 1.25	| 166.666667 |
 | Total	| 26501.50	| 22095.0	| -4406.50	| -16.627361 |
 
+![image](https://user-images.githubusercontent.com/93147265/143290240-a897f14e-622d-4ca4-835f-f2fc8b85cb83.png)
+
 Observations:
 - Most types of crime events have declined in 2020 compared to the previous 4-year.
 - Burglary dropped 38%, robbery dropped 34%, larceny non vehicle dropped 26%, larceny from vehicle dropped 12%.
