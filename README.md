@@ -119,8 +119,7 @@ Observations:
 
 Observations:
 - There is a seasonality related trend to overall crimes.
-- Overall crimes are lower during the first quarter of year compared to the last quarter.
-- Crimes drop during the first quarter and start increasing throughout the year.
+- all crimes types are lower during the first quarter of year compared to the last quarter.
 - From 2016-2021, crimes was lowest during the lockdown in 2020.
 - Although the lowest point was in 2020, crimes increased after the lockdown regardless of the increased in COVID-19 cases.
 - The steep drop in crime during the lockdown is followed by a steep rise in crime beginning in the summer and the winter in 2020. 
