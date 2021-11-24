@@ -81,8 +81,8 @@ Observations:
 
 ### Comparing the types of Crimes
 ![image](https://user-images.githubusercontent.com/93147265/143252489-8edd1356-206d-4961-86f8-026d91da444d.png)
-Observations:
-- 
+
+Observations: 
 - Robbery, burglary, both larceny, and auto theft decrease in counts during March.
 - Aggravated assault and homicide has risen during March.
 - All crimes starts to rise in April to May.
@@ -132,6 +132,6 @@ Some logical hypothesis for why the pandemic would have driven down burglary, ro
 - More people were are home, fewer people were on the street, and many businesses were closed during the lockdown.
 - Less opportunies to commit burglaries, robberies and larcenies.
 
-With better dataset, I would like to investigate the reasons why aggravated assault and homicide on the other hand increased. I would like to see if domestic crimes increased during the lockdown.
+With better dataset, I would like to investigate the reasons why aggravated assault and homicide on the other hand increased. I would like to see if domestic abuse may have caused aggravated assault to increase during the lockdown.
 
 Also once 2021 is over, I would like to compare 2021 dataset with 2020, to see how the crime trend in 2021 changed compared to 2020 and 2016-2019.
