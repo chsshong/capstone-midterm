@@ -126,7 +126,7 @@ It is unclear as there is no clear correlation between the number of COVID-19 ca
 
 Also from 2016-2020, overall crimes have been decreasing each year so we cannot tell if 2020 crimes are lower due to the downward trend in overall crimes.
 
-Although a very reasonable explanation that factored in the overall drop in crimes was due to the COVID-19 lockdown. 
+Although a very reasonable explanation that COVID-19 lockdown contributed to the overall drop in crimes for 2020.
 
 Since all crimes dropped during the month March.
 
