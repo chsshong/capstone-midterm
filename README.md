@@ -124,7 +124,9 @@ How did the COVID-19 impacted the crime rate and the different types of crimes?
 
 It is unclear as there is no clear correlation between the number of COVID-19 cases and crimes.
 
-Although a very reasonable explanation for the overall drop in crimes was due to the COVID-19 lockdown. 
+Also from 2016-2020, overall crimes have been decreasing each year so we cannot tell if 2020 crimes are lower due to the downward trend in overall crimes.
+
+Although a very reasonable explanation that factored in the overall drop in crimes was due to the COVID-19 lockdown. 
 
 Since all crimes dropped during the month March.
 
