@@ -1,4 +1,4 @@
-# Crimes in Atlanta in 2020 in the midst of COVID-19 Pandemic
+# Crimes in Atlanta in the midst of COVID-19 Pandemic
 
 ## Proposal
 The purpose of this analysis is to examine crimes in Atlanta and the impact it had from COVID-19 pandemic.
