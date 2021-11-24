@@ -195,8 +195,27 @@ def plot_bar_graph(df,colx,coly):
 #plt.savefig('images/', dpi=100)
 
 #Grab total count for each category by Month
-def
-type_crimes_df = crimes_2020_df.groupby(["Month","Crime Categories"])["Report Number"].count().reset_index(name="count")
+all_type_crimes_df = crimes_df.groupby(["yyyy-mm", "Crime Categories"])["Report Number"].count().reset_index(name="count")
+
+#convert date dtype object to datetime64[ns]
+def type_datetime(df, date_col):
+    df[date_col] = pd.to_datetime(df[date_col])
+
+fig, ax = plt.subplots(nrows=len(type_crimes), figsize=(12,len(type_crimes)*3.5))
+for i in type_crimes:
+    ind = type_crimes.index(i)
+    filt = all_type_crimes_df['Crime Categories'] == i #filter the dataframe for each type in the list
+    ax[ind].set_title(i, size=15)
+    ax[ind].plot(all_type_crimes_df.loc[filt]['yyyy-mm'],all_type_crimes_df.loc[filt]['count'])
+    ax[ind].set_ylabel('Number of Reported Counts', fontsize = 10)
+    ax[ind].set_xlabel('Date', fontsize = 10)
+    ax[ind].xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    ax[ind].xaxis.set_minor_locator(mdates.MonthLocator())
+    ax[ind].axvspan(dt.datetime(2020,3,15), dt.datetime(2020,4,30), color='teal', alpha=0.5, label="Covid Lockdown")
+    ax[ind].legend(loc='lower left')
+    plt.tight_layout()
+    #plt.savefig('images/Crime Categories subplots updated (2016-2021)', dpi=100)
+
 
 if __name__ == "__main__":
 
