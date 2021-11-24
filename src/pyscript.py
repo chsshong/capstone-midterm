@@ -14,6 +14,15 @@ crimes_2020_2_df = pd.read_csv('data/COBRA-2020(NEW RMS 9-30 12-31).csv')
 crimes_2021_df = pd.read_csv('data/COBRA-2021.csv')
 covid19_2020_df = pd.read_csv('data/epicurve_rpt_date.csv')
 
+#convert dtype for resolve dtypewarning
+def convert_dtype(x):
+    if not x:
+        return ''
+    try:
+        return str(x)   
+    except:        
+        return ''
+
 #Concatenate two or more dataframes
 def concat_df(df1,df2,df3=pd.DataFrame(),df4=pd.DataFrame()):
     df = pd.concat([df1, df2, df3, df4], axis=0)
@@ -23,30 +32,6 @@ def concat_df(df1,df2,df3=pd.DataFrame(),df4=pd.DataFrame()):
 def lst_columns(df):
     df = list(df.columns)
     return df
-#all columns from crimes dataset
-'''
-['Report Number',
- 'Report Date',
- 'Occur Date',
- 'Occur Time',
- 'Possible Date',
- 'Possible Time',
- 'Beat',
- 'Apartment Office Prefix',
- 'Apartment Number',
- 'Location',
- 'Shift occurence',
- 'Location Type',
- 'UCR Literal',
- 'UCR #',
- 'Neighborhood',
- 'NPU',
- 'Latitude',
- 'Longitude']
-'''
-
-#Columns to keep
-lst_keep_column = ['Occur Date', 'UCR Literal']
 
 #Drop columns that won't be used
 def drop_columns(df):
@@ -75,6 +60,9 @@ def col_year(df, col1, col2):
 def col_month(df, col1, col2):
     df[col1] = pd.DatetimeIndex(df[col2]).month
     return df
+#Create new column of "YYYY-mm" from Date column
+def col_year_month(df, date_col):
+    df['YYYY-mm'] = pd.to_datetime(df[date_col]).dt.strftime('%Y-%m')
 
 #Create new column of Month as String format mmm
 def col_mmm(df, col1, col2):
@@ -206,5 +194,31 @@ def plot_bar_graph(df,colx,coly):
     fig.tight_layout()
 #plt.savefig('images/', dpi=100)
 
+#Grab total count for each category by Month
+def
+type_crimes_df = crimes_2020_df.groupby(["Month","Crime Categories"])["Report Number"].count().reset_index(name="count")
+
 if __name__ == "__main__":
-    pass
+
+#all columns from crimes dataset
+    ['Report Number',
+    'Report Date',
+    'Occur Date',
+    'Occur Time',
+    'Possible Date',
+    'Possible Time',
+    'Beat',
+    'Apartment Office Prefix',
+    'Apartment Number',
+    'Location',
+    'Shift occurence',
+    'Location Type',
+    'UCR Literal',
+    'UCR #',
+    'Neighborhood',
+    'NPU',
+    'Latitude',
+    'Longitude']
+
+#Columns to keep
+lst_keep_column = ['Occur Date', 'UCR Literal']
