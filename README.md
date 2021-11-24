@@ -128,7 +128,7 @@ Also from 2016-2020, overall crimes have been decreasing each year so we cannot 
 
 Although a very reasonable explanation that COVID-19 lockdown contributed to the overall drop in crimes for 2020.
 
-Since all crimes dropped during the month March.
+Since all crimes decreased during the month of March.
 
 Some logical hypothesis for why the pandemic would have driven down burglary, robbery, and larceny:
 - More people were are home, fewer people were on the street, and many businesses were closed during the lockdown.
