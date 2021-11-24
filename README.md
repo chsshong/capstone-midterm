@@ -1,13 +1,13 @@
 # Crimes in Atlanta in the midst of COVID-19 Pandemic
 
 ## Proposal
-The purpose of this analysis is to examine crimes in Atlanta and the impact it had from COVID-19 pandemic.
+The purpose of this analysis is to examine crimes in Atlanta during the COVID-19 pandemic.
 ### Questions to answer  
 How did the COVID-19 impacted the crime rate and the different types of crimes? 
 
 ## Datasets and Limitation
 ### Atlanta Crime Dataset
-The source for the Atlanta crime dataset is from the the Atlanta Police Department website. There were total of four datasets from the website:
+The source for the Atlanta crime dataset is from the Atlanta Police Department website. There were total of four datasets from the website:
   - COBRA-2009-2019 (Updated 1_9_2020)
   - COBRA-2020-OldRMS-09292020 (Corrected 11_25_20)
   - COBRA-2020 (NEW RMS 9-30 12-31)
@@ -15,11 +15,11 @@ The source for the Atlanta crime dataset is from the the Atlanta Police Departme
 
 Atlanta Police Department uses Uniform Crime Report (UCR) program to report crime statistics.
 
-The biggest limitation in these dataset were the breakdown and the inconsistent of crimes categories and codes along the datasets. 
+The biggest limitation in these dataset were the breakdown and the inconsistency of crimes categories and codes along the datasets. 
 
 For the consistency of all the datasets and the file size limitations, I will only be analyzing from year 2016-2021 and the crime categories I will be analyzing are the following: Aggravated assault, auto theft, burglary, homicide, larceny from vehicle, larceny from non vehicle, manslaugther, and robbery. 
 
-Since 2021 is not over, the dataset I was able to obtain was up to November 18, 2021.
+For 2021, the dataset I was able to obtain was up to November 18, 2021.
 
 I will be using the occur date of incident rather than the report date to get a clearer representation of the COVID 19 impact on crimes.
 
@@ -38,7 +38,7 @@ These are the definitions of the crime types according to UCR.
 ### COVID-19 Pandemic in 2020
 - Dec 2019 - Coronavirus disease 2019 (COVID-19) official outbreak.
 - Jan 20 2020 - First confirmed case in United States in Washington state.
-- Mar 2 2020 - First two confirmed cases were from two residents of culton County which Atlanta, the capital of Georgia, is under.
+- Mar 2 2020 - First two confirmed cases were from two residents from Fulton County which Atlanta, the capital of Georgia, is under.
 - Mar 15 2020 - Atlanta city-wide state of emergency
 - Mar 23 2020 - Atlanta mayor Bottoms signed a 14-day stay-at-home order to direct all city residents to stay at home except for performing essential tasks
 - Apr 8 2020 - GA Governor Kemp extended the statewide shelter in place order through the end of April
