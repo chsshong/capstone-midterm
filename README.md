@@ -132,6 +132,8 @@ Some logical hypothesis for why the pandemic would have driven down burglary, ro
 - More people were are home, fewer people were on the street, and many businesses were closed during the lockdown.
 - Less opportunies to commit burglaries, robberies and larcenies.
 
+However after the lockdown was over and into 2021, crimes have increased again.
+
 With better dataset, I would like to investigate the reasons why aggravated assault and homicide on the other hand increased. I would like to see if domestic abuse may have caused aggravated assault to increase during the lockdown.
 
 Also once 2021 is over, I would like to compare 2021 dataset with 2020, to see how the crime trend in 2021 changed compared to 2020 and 2016-2019.
