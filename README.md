@@ -78,8 +78,15 @@ Observations:
 - From this graph, we can see that the total crimes in Atlanta is decreasing every year since 2016.
 - Therefore it is hard to pinpoint if COVID-19 had an impact in decreasing crimes overall but we can make a logical assumption that COVID-19 lockdown may have contributed to a steeper decrease in crimes overall.
 
-
 ### Comparing the types of Crimes
+![image](https://user-images.githubusercontent.com/93147265/143290240-a897f14e-622d-4ca4-835f-f2fc8b85cb83.png)
+
+Observations:
+- Larceny and auto theft had the lowest number of incidents during lockdown compared to previous years.
+- However larceny from vehicle and auto theft had the highest number of reports from mid October to December 2020 from 2016-2020.
+- Aggravated assault also had the highest number of reports during October 2020.
+- Homicides had the highest number of cases in July 2020.
+
 ![image](https://user-images.githubusercontent.com/93147265/143252489-8edd1356-206d-4961-86f8-026d91da444d.png)
 
 Observations: 
@@ -87,8 +94,6 @@ Observations:
 - Aggravated assault and homicide has risen during March.
 - All crimes starts to rise in April to May.
 - Homicide has an irregular pattern.
-
-
 
 | Crime Categories | 4-year AVG (2016-2019) | 2020 | Diff | % Diff |
 | --- | --- | ---| --- | ---- |
@@ -102,7 +107,6 @@ Observations:
 | Manslaugther	| 0.75	| 2.0	| 1.25	| 166.666667 |
 | Total	| 26501.50	| 22095.0	| -4406.50	| -16.627361 |
 
-![image](https://user-images.githubusercontent.com/93147265/143290240-a897f14e-622d-4ca4-835f-f2fc8b85cb83.png)
 
 Observations:
 - Most types of crime events have declined in 2020 compared to the previous 4-year.
