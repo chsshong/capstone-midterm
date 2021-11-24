@@ -138,4 +138,4 @@ However after the end of lockdown, crimes have increased rapidly and homicides a
 
 With better dataset, I would like to investigate the reasons why aggravated assault and homicide on the other hand increased. I would like to see if domestic abuse may have caused aggravated assault to increase during the lockdown.
 
-Also once 2021 is over, I would like to compare 2021 dataset with 2020, to see how the crime trend in 2021 changed compared to 2020 and 2016-2019.
+Also once year 2021 is passed, I would like to compare 2021 dataset with 2020, to analyze crimes in 2021 compared to 2020.
