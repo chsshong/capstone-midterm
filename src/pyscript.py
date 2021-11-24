@@ -159,7 +159,7 @@ def plot_bar_total_crimes_year(df, col):
 def plot_count_crimes_cat_year(df):
     fig, ax = plt.subplots(figsize=[8.5, 6])
     ax = sns.countplot(y = df['Crime Categories'], data = df, order = df['Crime Categories'].value_counts().index)
-    plt.title((input('Fig Title: '), fontsize = 20)
+    plt.title(input('Fig Title: '), fontsize = 20)
     plt.xlabel('Number of Crimes', fontsize = 15)
     plt.ylabel('Crime Categories', fontsize = 15)
     plt.xticks(fontsize = 9)
